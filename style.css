@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+.home{
+    position: relative;
+    height:100vh;
+    background-image:url(../text/img/التنميه\ المستدامه.webp);
+background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 250, 241);
+    opacity: 0.2;
+}
+.tittel{
+    position: absolute;
+    margin-top: -600px;
+margin-left: 500px;
+font-size: 40px;
+color: #08dd08;
+
+}
+
+
+.div1-name1{
+    width: 200px;
+    height: 40px;
+    background-color: #08dd08;
+    border-radius: 20%;
+    position: absolute;
+margin-top: -500px;
+margin-left: 10%;
+text-align: center;
+padding-top: 5px;
+animation-name: change;
+animation-duration: 5s;
+background-size: cover;
+animation-fill-mode: forwards;
+animation-timing-function: ease;
+
+}
+@keyframes change{
+0%{background-color: #07f807;left: 0;}
+25%{background-color: #ecf00b;}
+50%{background-color: #0fc51f;}
+75%{background-color: #115811;}
+100%{background-image: url(../text/img/2.jfif); left: 800px; width: 250px; height: 60px;}
+
+}
+
+.div1-name2{
+    width: 200px;
+    height: 40px;
+    background-color: #08dd08;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -410px;
+    margin-left: 70%;
+    text-align: center;
+    padding-top: 5px;
+    animation-name: date;
+    animation-duration: 5s;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+
+    }
+    @keyframes date{
+
+        0%{background-color: #07f807;right: 0;}
+        25%{background-color: #08dd08;}
+        75%{background-color: #c5c20f;}
+        50%{background-color: #33c50f;}
+        100%{background-image: url(../text/img/2.jfif); right: 1050px; width: 250px; height: 60px;}
+}
+
+.div1-name3{
+    width: 200px;
+    height:40px;
+    background-color: #08dd08;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 5px;
+    animation-name: rem;
+    animation-duration: 5s;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 10s;
+    background-size: cover;
+}
+
+@keyframes rem{
+    0%{background-color: #07f807;left: 0;}
+    25%{background-color: #ecf00b;}
+    50%{background-color: #0fc51f;}
+    75%{background-color: #115811;}
+    100%{background-image: url(../text/img/2.jfif); background-size: cover;   left: 800px;width: 250px; height: 60px;}
+    
+}
+
+.div1-name4{
+    width: 200px;
+    height: 40px;
+    background-color: #08dd08;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 70%;
+    text-align: center;
+    padding-top: 5px;
+    animation-name: tm;
+    animation-duration: 5s;
+
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 15s;
+}
+@keyframes tm{
+    0%{background-color: #07f807;right: 0; }
+    25%{background-color: #ecf00b;}
+    50%{background-color: #0fc51f;}
+    75%{background-color: #115811;}
+    100%{background-image: url(../text/img/2.jfif); right: 1050px;width: 250px; height: 60px;}
+    }
+
+.div1-name5{
+    width: 200px;
+    height: 40px;
+    background-color: #08dd08;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 5px;
+    animation-name: mm;
+    animation-duration: 5s;
+    background-size: cover;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 20s;
+}
+@keyframes mm{
+    0%{background-color: #07f807;left: 0;}
+    25%{background-color: #ecf00b;}
+    50%{background-color: #0fc51f;}
+    75%{background-color: #115811;}
+    100%{background-image: url(../text/img/2.jfif); left: 800px;width: 250px; height: 60px;}
+    }
+.div1-name6{
+    width: 200px;
+    height: 40px;
+    background-color: #08dd08;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 70%;
+    text-align: center;
+    padding-top: 5px;
+    animation-name: ee;
+    animation-duration:5s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 25s;
+
+}
+
+@keyframes ee{
+    0%{background-color: #07f807;right: 0;}
+    25%{background-color: #ecf00b;}
+    50%{background-color: #0fc51f;}
+    75%{background-color: #115811;}
+    100%{background-image: url(../text/img/2.jfif); right: 1050px;width: 250px; height:60px;}
+    }
